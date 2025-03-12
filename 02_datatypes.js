@@ -28,5 +28,4 @@ console.log(typeof age)
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
 
-let name ="Sahil"
-let age =20
+
