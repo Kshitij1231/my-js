@@ -27,3 +27,25 @@ const myfunction =function(){
     console.log("Hello World");   
 }
 console.log(typeof myfunction);
+
+// **************
+
+// Stack (Primitive),Heap(Non Primitive)
+let myYoutubename ="kshitij788.com"
+
+let anothername = myYoutubename
+anothername ="srijancoding.com"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "kshitij@google.com",
+    upi: "kshitij@ybl",
+}
+ let userTwo =userOne
+ userTwo.email ="kshitijpandey@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
+ 
